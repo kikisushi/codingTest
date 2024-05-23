@@ -1,4 +1,4 @@
 function solution(s) {
 return (s.length == 4|| s.length ==6) &&
-    s.split("").map(x => parseInt(x)).join("") === s ? true : false
+    s.split("").map(x => Number(x)).join("") === s ? true : false
 }
